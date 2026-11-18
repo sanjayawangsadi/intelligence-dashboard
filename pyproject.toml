@@ -9,6 +9,8 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "fastapi[standard]>=0.163.1",
+    "psycopg[binary]>=3.2.0",
+    "sqlalchemy>=2.1.9",
 ]
 
 [project.scripts]

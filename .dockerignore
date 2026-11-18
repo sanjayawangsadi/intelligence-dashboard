@@ -1,0 +1,13 @@
+.git
+.gitignore
+.venv
+.env
+.claude
+__pycache__
+*.py[cod]
+*.egg-info
+.pytest_cache
+.ruff_cache
+database/data
+graphify-out
+README.md

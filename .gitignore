@@ -8,3 +8,15 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Local configuration / secrets
+.env
+
+# Local PostgreSQL data (docker bind mount)
+database/data/
+
+# Claude-generated files
+.claude/
+
+# Ignore local Graphify caches and machine-specific files
+graphify-out/
