@@ -15,6 +15,9 @@ wheels/
 # Local PostgreSQL data (docker bind mount)
 database/data/
 
+# Runtime logs
+logs/
+
 # Claude-generated files
 .claude/
 
